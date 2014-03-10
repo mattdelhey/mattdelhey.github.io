@@ -1,0 +1,7 @@
+name: site name
+description: man is spirit. but what is spirit?
+
+markdown: redcarpet
+pygments: true
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
