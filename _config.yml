@@ -1,5 +1,6 @@
-name: site name
-description: man is spirit. but what is spirit?
+name: rough theory
+description: A way built by Matt Delhey.
+#description: man is spirit. but what is spirit?
 
 markdown: redcarpet
 pygments: true
