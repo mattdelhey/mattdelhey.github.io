@@ -2,6 +2,7 @@
 layout: post
 title: 'Exploring Rice University Recreation Center Data'
 date: 2012-12-14
+category: science
 excerpt: Here's an example of extracting interesting information from a real data set generated from our on-campus Recreation Center here at Rice University. The data set given to me contains information regarding all swipes into the Rec center in September, 2011, including time (rounded to the nearest fifteen minutes), sex, and status (e.g. graduate student, alumni, etc.)
 
 ---

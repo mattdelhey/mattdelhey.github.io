@@ -436,6 +436,13 @@ img.aligncenter {
 /* =Content
 ----------------------------------------------- */
 
+.entry-date{
+    padding: 0px;
+    margin: 0px;
+    color: #999;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
 .site,
 .entry-content {
 	*zoom: 1;
