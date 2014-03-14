@@ -1,5 +1,6 @@
-name: rough theory
+name: Rough Theory
 description: A way built by Matt Delhey.
+#description: A way built by <a href='http://mattdelhey.com'>Matt Delhey</a>.
 #description: man is spirit. but what is spirit?
 
 markdown: redcarpet
