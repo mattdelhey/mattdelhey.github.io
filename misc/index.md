@@ -6,7 +6,8 @@ title : 'Rough Theory'
 <h1 class="entry-title"><a href="{{ post.url }}">Miscellaneous</a></h1>
 Here are a few things which shouldn't be of any interest to you. 
 
-<h2>Essays</h2>
+<a id="essays"></a>
+<h2 class="entry-title"><a href="#essays">Essays</a></h2>
 
 The following are a collection of essay's I've written in my
 undergraduate philosophy courses. I don't think any of them are worth
@@ -50,7 +51,8 @@ appropriate place even if I did).
 	</li>
 </ul>
 
-<h2>Notes</h2>
+<a id="notes"></a>
+<h2 class="entry-title"><a href="#notes">Notes</a></h2>
 The following are notes taken from lecture and course
 materials in some of my undergraduate classes in statistics and
 philosophy. It goes without saying that all content belongs to it's
