@@ -8,7 +8,7 @@ I feel that Derrida gets a bad reputation as overly unapproachable among analyti
 
 In fact, these cases when Derrida takes his arguments to some of their specific instantiations end up being some of my favorite moments in his book. But after re-reading what I've written here, perhaps it's not as concrete as I'd thought and so instead a _more_ concrete Derrida. Here's what I'm talking about:
 
-> "In terms of the moral of morality, let us here insist upon what is too often forgotten
+> In terms of the moral of morality, let us here insist upon what is too often forgotten
 > by the moralizing moralists and good consciences who preach to us with assurance every 
 > morning and every week, in newspapers and magazines, on the radio and on television, 
 > about the sense of ethical or political responsibility. Philosophers who don't write 
@@ -27,7 +27,7 @@ Here Derrida is speaking right after his conclusion asserting the connection bet
 Continuing the issue of the wholly other (every other):
 
 
->"Whether I want to or not, I can never justify the fact that I prefer or sacrifice
+> Whether I want to or not, I can never justify the fact that I prefer or sacrifice
 > any one (any other) to the other. I will always be secretive, held to secrecy in respect of this,
 > for I have nothing to say about it. What binds me to singularities, to this one or that one,
 > male or female, rather than that one or this one, remains finally unjustifiable (this is
@@ -39,7 +39,7 @@ Continuing the issue of the wholly other (every other):
 > How would you justify your presence here speaking one particular language, rather than there
 > speaking to others in another language? And yet we also do our duty by behaving thus. 
 > There is no language, no reason, no generality or mediation to justify this ultimate 
-> responsibility which leads me to absolute sacrifice."
+> responsibility which leads me to absolute sacrifice.
 
 
 I love the line here about cats. I don't think this is a new thought regarding pets, but it's well formulated. How do I justify picking one dog from the pet store over any of the others available? What about of all the dogs available in the world? All animals together? But the love I have for my dog isn't bunk, it's as real, important, and normative as anything else in my life. I think this is what Derrida is trying to say, that we can't justify these important aspects of our lives in terms of absolute responsibility (e.g. in the fashion of the moralists). Paradoxically, a fully rationalized or public account of responsibility cannot meet the call of responsibility. And so I suppose this is what Derrida means when he goes on and on about absolute sacrifice, that it is the absolute sacrifice of such an account of responsibility, of generalizable singularity (ethics) in this sense. 
