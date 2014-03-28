@@ -13,7 +13,7 @@ Lacan has of reputation of being difficult to read without context
 into his thinking, so Zizek's 'How to Read Lacan' seemed like an
 appropriate place to being a conversation. Not quite true. The book
 would be better titled, as one reviews states, 'How to Read Zizek using
-Lacan'. Psychoanalysis, nonetheless, is as the forefront.
+Lacan'. Psychoanalysis, nonetheless, is at the forefront.
 
 This passage, taken from pg. 29-31, is a particularly interesting
 application of PA theory. In it, cultural beliefs are unpacked in
