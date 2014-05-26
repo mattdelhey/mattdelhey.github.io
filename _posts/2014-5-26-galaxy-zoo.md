@@ -11,7 +11,7 @@ Over the course of the spring semester, I was asked to participate in
 a Kaggle competition of my choosing for my machine learning class. I
 ended up deciding on the rather interesting Galaxy Zoo problem. I
 didn't perform all too well (145th out of 329) but the competition was
-rather fierce. Turns out CNN's were the way to go---not too surprising.
+rather fierce. Turns out CNN's were the way to go&mdash;not too surprising.
 
 Check out my
 [final report](http://mjd2.blogs.rice.edu/files/2014/05/report.pdf)
