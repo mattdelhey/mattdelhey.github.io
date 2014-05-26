@@ -3,11 +3,7 @@ layout: post
 title: "Reconstructing Napoleon's Failed March to Russia"
 category: science
 date:   2013-02-01
-excerpt: Above is perhaps one the most famous statistical graphics
-ever created, found in nearly every history text-book (at least the
-ones I read...) that discusses Napoleon's failed invasions of Russia
-in 1812. The graphic was originally created by Charles Joseph Minard,
-a statistician ahead of his time.
+excerpt: "Above is perhaps one the most famous statistical graphics ever created, found in nearly every history text-book (at least the ones I read...) that discusses Napoleon's failed invasions of Russia in 1812. The graphic was originally created by Charles Joseph Minard, a statistician ahead of his time."
 
 ---
 ![original_minard]({{ site.url }}/images/original_minard.jpg)
