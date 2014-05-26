@@ -3,12 +3,7 @@ layout: post
 category: science
 title: 'Simulating Hidden Markov Models using R'
 date:  2013-08-11
-excerpt: Ever wanted to explore Hidden Markov Models? It's
-extraordinarily easy using some of R's packages. Here I'm going to run
-through a quick example of modeling HMM's with the Viterbi algorithm
-and Posterior probabilities on a simulation using the HMM package,
-with a focus on computation and visualization rather than mathematics
-(that's all on Wikipedia, anyways!)
+excerpt: Ever wanted to explore Hidden Markov Models? It's extraordinarily easy using some of R's packages. Here I'm going to run through a quick example of modeling HMM's with the Viterbi algorithm and Posterior probabilities on a simulation using the HMM package, with a focus on computation and visualization rather than mathematics (that's all on Wikipedia, anyways).
 
 ---
 Ever wanted to explore Hidden Markov Chains? It's extraordinarily easy using some of R's packages. Here I'm going to run through a quick example of modeling HMM's with the Viterbi algorithm and Posterior probabilities on a simulation using the __HMM__ package, with a focus on computation and visualization rather than mathematics (that's all on [Wikipedia](http://en.wikipedia.org/wiki/Hidden_Markov_model) anyways!)
