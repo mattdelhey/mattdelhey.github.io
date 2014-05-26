@@ -1,7 +1,6 @@
 name: Rough Theory
-description: A way built by Matt Delhey.
-#description: A way built by <a href='http://mattdelhey.com'>Matt Delhey</a>.
-#description: man is spirit. but what is spirit?
+description: An attempt to build a way.
+#description: A way built by Matt Delhey.
 
 markdown: redcarpet
 pygments: true
