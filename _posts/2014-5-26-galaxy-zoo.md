@@ -1,22 +1,17 @@
 ---
 layout: post
 category: science
-title: 'My Solution To The Galaxy Zoo Challenge'
-date:  2014-05-26
-excerpt: Over the course of the spring semeseter, I was asked to
-participate in a Kaggle competition of my choosing for my machine
-learning class. I ended up deciding on the rather interesting Galaxy
-Zoo problem. I didn't perform all too well but the competition was
-rather fierce. Turns out CNN's were the way to go (not too
-suprising).
+title: "My Solution To The Galaxy Zoo Challenge"
+date:  2014-5-26
+excerpt: "Over the course of the spring semester, I was asked to participate in a Kaggle competition of my choosing for my machine learning class. I ended up deciding on the rather interesting Galaxy Zoo problem. I didn't perform all too well but the competition was rather fierce. Turns out CNN's were the way to go (not too surprising)."
 
 ---
 
-Over the course of the spring semeseter, I was asked to participate in
+Over the course of the spring semester, I was asked to participate in
 a Kaggle competition of my choosing for my machine learning class. I
 ended up deciding on the rather interesting Galaxy Zoo problem. I
 didn't perform all too well (145th out of 329) but the competition was
-rather fierce. Turns out CNN's were the way to go---not too suprising.
+rather fierce. Turns out CNN's were the way to go---not too surprising.
 
 Check out my
 [final report](http://mjd2.blogs.rice.edu/files/2014/05/report.pdf)
@@ -25,7 +20,7 @@ really bored, you can also see the minimalist
 [poster](http://mjd2.blogs.rice.edu/files/2014/04/poster1.pdf) I used
 in a presentation of my work.
 
-Here's a sneak peak at the abstract:
+Here's a sneak peak by means of the abstract:
 
 <blockquote>
 The Galaxy Zoo Challenge asks participants to predict proportions of
