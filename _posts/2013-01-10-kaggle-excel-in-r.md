@@ -3,7 +3,7 @@ layout: post
 title: 'Kaggle: Getting Started with Excel -- In R'
 category: science
 date: 2013-01-10
-excerpt: If you're reading this blog post then you might have used Kaggle, a flashy resource in the data science world that works both as a platform for competition and for knowledge. The focus of the site is machine learning, something that is rather new to me. Being the awesome people that they are, Kaggle has put together a short series of guides for getting started, the [first of which](http://www.kaggle.com/c/titanic-gettingStarted/details/getting-started-with-excel) involves using Excel. But Excel is kinda boring, so I thought it would be fun to run through the guide using R and ggplot2 visualizations.
+excerpt: "If you're reading this blog post then you might have used Kaggle, a flashy resource in the data science world that works both as a platform for competition and for knowledge. The focus of the site is machine learning, something that is rather new to me. Being the awesome people that they are, Kaggle has put together a short series of guides for getting started, the first of which involves using Excel. But Excel is kinda boring, so I thought it would be fun to run through the guide using R and ggplot2 visualizations."
 
 ---
 
