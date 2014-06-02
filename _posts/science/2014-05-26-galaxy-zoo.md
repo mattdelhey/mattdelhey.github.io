@@ -1,6 +1,7 @@
 ---
 layout: post
 category: science
+put_on_main: 'yes'
 title: "My Solution To The Galaxy Zoo Challenge"
 date:  2014-5-26
 excerpt: "Over the course of the spring semester, I was asked to participate in a Kaggle competition of my choosing for my machine learning class. I ended up deciding on the rather interesting Galaxy Zoo problem. I didn't perform all too well but the competition was rather fierce. Turns out CNN's were the way to go (not too surprising)."

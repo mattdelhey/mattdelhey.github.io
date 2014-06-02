@@ -3,6 +3,10 @@ description: An attempt to build a way.
 #description: A way built by Matt Delhey.
 
 markdown: redcarpet
-pygments: true
+highlighter: pygments
+#pygments: true -- depreciated
+
+paginate: 2
+paginate_path: "/page:num"
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']

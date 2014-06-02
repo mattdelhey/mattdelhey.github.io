@@ -26,7 +26,7 @@
 	  <hgroup>
 	    <h1 class="site-title"><a href="/"
 	    title="title" ref="home">Rough Theory</a></h1>
-	    <h2 class="site-description">A way built by Matt Delhey.</h2>
+	    <h2 class="site-description">An attempt to build a way.</h2>
 	  </hgroup>
 	  
 	  <nav role="naviagtion" class="site-navigation main-navigation">
@@ -49,7 +49,7 @@
       <div id="content" class="site-content" role="main">
                 
 	<h1 class="entry-title"><a href="/science/2013/08/11/hidden-markov-models.html">Simulating Hidden Markov Models using R</h1></a>
-<!--<h2 class="entry-date">2013-08-11 00:00:00 -0500</h2>-->
+<!--<h2 class="entry-date">2013-08-11 00:00:00 -0400</h2>-->
 <!--<p class="meta">11 Aug 2013</p>-->
 
 <div class="post">
@@ -136,8 +136,7 @@ state <span class="o">&lt;-</span> <span class="s">&quot;FAIR&quot;</span>
   <span class="c1"># Save dice roll and state</span>
   results<span class="p">[</span>i<span class="p">,</span> <span class="m">1</span><span class="p">]</span> <span class="o">&lt;-</span> state
   results<span class="p">[</span>i<span class="p">,</span> <span class="m">2</span><span class="p">]</span> <span class="o">&lt;-</span> roll
-<span class="p">}</span>
-</code></pre></div>
+<span class="p">}</span></code></pre></div>
 
 <h3>Modeling</h3>
 
@@ -157,8 +156,7 @@ results<span class="o">$</span>posterior<span class="p">[</span>results<span cla
 <span class="c1"># Check out results</span>
 table<span class="p">(</span>results<span class="o">$</span>dice<span class="p">)</span>
 table<span class="p">(</span>results<span class="o">$</span>viterbi<span class="p">)</span>
-table<span class="p">(</span>results<span class="o">$</span>posterior<span class="p">)</span>
-</code></pre></div>
+table<span class="p">(</span>results<span class="o">$</span>posterior<span class="p">)</span></code></pre></div>
 
 <p>Our simulation resulted in 2012 fair dice rolls and 988 loaded dice rolls, with a model accuracy of 90.97% for the Viterbi algorithm and 95.43% for posterior probabilities. </p>
 
@@ -184,8 +182,7 @@ p3 <span class="o">&lt;-</span> ggplot<span class="p">(</span>aes<span class="p"
       xlab<span class="p">(</span><span class="s">&quot;Dice Roll (in sequence)&quot;</span><span class="p">)</span> <span class="o">+</span> ylab<span class="p">(</span><span class="s">&quot;State&quot;</span><span class="p">)</span> <span class="o">+</span>
       ggtitle<span class="p">(</span><span class="s">&quot;Posterior Predictions&quot;</span><span class="p">)</span>
 
-grid.arrange<span class="p">(</span>p1<span class="p">,</span> p2<span class="p">,</span> p3<span class="p">,</span> ncol <span class="o">=</span> <span class="m">1</span><span class="p">)</span>
-</code></pre></div>
+grid.arrange<span class="p">(</span>p1<span class="p">,</span> p2<span class="p">,</span> p3<span class="p">,</span> ncol <span class="o">=</span> <span class="m">1</span><span class="p">)</span></code></pre></div>
 
 <p><img src="/images/hmm_vis.png" alt="hmm-vis"></p>
 
@@ -202,8 +199,7 @@ ggplot<span class="p">()</span> <span class="o">+</span>
   geom_point<span class="p">(</span>data <span class="o">=</span> results<span class="p">,</span> aes<span class="p">(</span>x <span class="o">=</span> seq_along<span class="p">(</span>dice<span class="p">),</span> y <span class="o">=</span> posterior_probabilities<span class="p">),</span> stat <span class="o">=</span> <span class="s">&quot;identity&quot;</span><span class="p">)</span> <span class="o">+</span>
   ggtitle<span class="p">(</span><span class="s">&quot;Posterior Probabilities&quot;</span><span class="p">)</span> <span class="o">+</span>
   xlab<span class="p">(</span><span class="s">&quot;Dice Roll (In Sequence)&quot;</span><span class="p">)</span> <span class="o">+</span> 
-  ylab<span class="p">(</span><span class="s">&quot;Probability of Heads&quot;</span><span class="p">)</span>
-</code></pre></div>
+  ylab<span class="p">(</span><span class="s">&quot;Probability of Heads&quot;</span><span class="p">)</span></code></pre></div>
 
 <p><img src="/images/hmm_posterior.png" alt="hmm_posterior"></p>
 

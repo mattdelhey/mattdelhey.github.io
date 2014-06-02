@@ -26,7 +26,7 @@
 	  <hgroup>
 	    <h1 class="site-title"><a href="/"
 	    title="title" ref="home">Rough Theory</a></h1>
-	    <h2 class="site-description">A way built by Matt Delhey.</h2>
+	    <h2 class="site-description">An attempt to build a way.</h2>
 	  </hgroup>
 	  
 	  <nav role="naviagtion" class="site-navigation main-navigation">
@@ -49,7 +49,7 @@
       <div id="content" class="site-content" role="main">
                 
 	<h1 class="entry-title"><a href="/science/2013/01/10/kaggle-excel-in-r.html">Kaggle: Getting Started with Excel -- In R</h1></a>
-<!--<h2 class="entry-date">2013-01-10 00:00:00 -0600</h2>-->
+<!--<h2 class="entry-date">2013-01-10 00:00:00 -0500</h2>-->
 <!--<p class="meta">10 Jan 2013</p>-->
 
 <div class="post">
@@ -64,8 +64,7 @@
 <p>Obviously, the first thing we have to do to is load up the <a href="http://www.kaggle.com/c/titanic-gettingStarted/data">data</a> into R. Download the <em>train</em> and <em>test</em> csv (comma separated value) files and load them up in R using the super easy <em>read.csv</em> function:</p>
 
 <div class="highlight"><pre><code class="r">train <span class="o">&lt;-</span> read.csv<span class="p">(</span><span class="s">&quot;train.csv&quot;</span><span class="p">,</span> stringsAsFactors <span class="o">=</span> <span class="kc">FALSE</span><span class="p">)</span> 
-test <span class="o">&lt;-</span> read.csv<span class="p">(</span><span class="s">&quot;test.csv&quot;</span><span class="p">,</span> stringsAsFactors <span class="o">=</span> <span class="kc">FALSE</span><span class="p">)</span>
-</code></pre></div>
+test <span class="o">&lt;-</span> read.csv<span class="p">(</span><span class="s">&quot;test.csv&quot;</span><span class="p">,</span> stringsAsFactors <span class="o">=</span> <span class="kc">FALSE</span><span class="p">)</span></code></pre></div>
 
 <p>Notice that I set the default option for <em>stringsAsFactors</em> as <em>False</em>. While this isn&#39;t necessary--especially for our application here--it really makes a lot more sense to think about strings as strings rather than factors, especially for things like names. Of course, if we need to convert our strings to factors later we can easily do so using the <em>factor</em> function.</p>
 
@@ -98,8 +97,7 @@ lived <span class="o">&lt;-</span> train<span class="o">$</span>survived <span c
 <span class="c1"># Make the first gender-based prediction</span>
 test<span class="o">$</span>survived<span class="p">[</span>test<span class="o">$</span>sex <span class="o">==</span> <span class="s">&quot;female&quot;</span><span class="p">]</span> <span class="o">&lt;-</span> <span class="m">1</span>
 test<span class="o">$</span>survived<span class="p">[</span>test<span class="o">$</span>sex <span class="o">==</span> <span class="s">&quot;male&quot;</span><span class="p">]</span> <span class="o">&lt;-</span> <span class="m">0</span>
-write.csv<span class="p">(</span>test<span class="p">,</span> <span class="s">&quot;genderbasedmodel.csv&quot;</span><span class="p">)</span>
-</code></pre></div>
+write.csv<span class="p">(</span>test<span class="p">,</span> <span class="s">&quot;genderbasedmodel.csv&quot;</span><span class="p">)</span></code></pre></div>
 
 <h3>Age</h3>
 
@@ -118,8 +116,7 @@ length<span class="p">(</span>train<span class="p">[</span>adult <span class="o"
   length<span class="p">(</span>train<span class="p">[</span>adult <span class="o">&amp;</span> male <span class="o">&amp;</span> <span class="o">!</span>is.na<span class="p">(</span>train<span class="o">$</span>age<span class="p">),</span> <span class="m">1</span><span class="p">])</span>
 length<span class="p">(</span>train<span class="p">[</span>adult <span class="o">&amp;</span> female <span class="o">&amp;</span> lived <span class="o">&amp;</span> <span class="o">!</span>is.na<span class="p">(</span>train<span class="o">$</span>age<span class="p">),</span> <span class="m">1</span><span class="p">])</span> <span class="o">/</span>
   length<span class="p">(</span>train<span class="p">[</span>adult <span class="o">&amp;</span> female <span class="o">&amp;</span> <span class="o">!</span>is.na<span class="p">(</span>train<span class="o">$</span>age<span class="p">),</span> <span class="m">1</span><span class="p">])</span>
-<span class="c1"># Age doesn&#39;t give much additional information (than sex) regarding survivability</span>
-</code></pre></div>
+<span class="c1"># Age doesn&#39;t give much additional information (than sex) regarding survivability</span></code></pre></div>
 
 <h3>Passenger Class and Ticket Fare</h3>
 
@@ -138,8 +135,7 @@ train<span class="o">$</span>fare.bin<span class="p">[</span>bin.2<span class="p
 train<span class="o">$</span>fare.bin<span class="p">[</span>bin.3<span class="p">]</span> <span class="o">&lt;-</span> <span class="s">&quot;20-30&quot;</span>
 train<span class="o">$</span>fare.bin<span class="p">[</span>bin.4<span class="p">]</span> <span class="o">&lt;-</span> <span class="s">&quot;&gt;30&quot;</span>
 train<span class="o">$</span>fare.bin <span class="o">&lt;-</span> factor<span class="p">(</span>train<span class="o">$</span>fare.bin<span class="p">,</span> levels <span class="o">=</span> c<span class="p">(</span><span class="s">&quot;&lt;10&quot;</span><span class="p">,</span> <span class="s">&quot;10-20&quot;</span><span class="p">,</span> <span class="s">&quot;20-30&quot;</span><span class="p">,</span> <span class="s">&quot;&gt;30&quot;</span><span class="p">))</span>
-qplot<span class="p">(</span>factor<span class="p">(</span>survived<span class="p">),</span> data <span class="o">=</span> train<span class="p">,</span> fill <span class="o">=</span> fare.bin<span class="p">)</span> <span class="o">+</span> facet_wrap<span class="p">(</span><span class="o">~</span> pclass<span class="p">)</span>
-</code></pre></div>
+qplot<span class="p">(</span>factor<span class="p">(</span>survived<span class="p">),</span> data <span class="o">=</span> train<span class="p">,</span> fill <span class="o">=</span> fare.bin<span class="p">)</span> <span class="o">+</span> facet_wrap<span class="p">(</span><span class="o">~</span> pclass<span class="p">)</span></code></pre></div>
 
 <h3>Final Submission</h3>
 
@@ -152,8 +148,7 @@ qplot<span class="p">(</span>factor<span class="p">(</span>survived<span class="
 test<span class="o">$</span>survived<span class="p">[</span>test<span class="o">$</span>sex <span class="o">==</span> <span class="s">&quot;male&quot;</span><span class="p">]</span> <span class="o">&lt;-</span> <span class="m">0</span>
 test<span class="o">$</span>survived<span class="p">[</span>test<span class="o">$</span>sex <span class="o">==</span> <span class="s">&quot;female&quot;</span><span class="p">]</span> <span class="o">&lt;-</span> <span class="m">1</span>
 test<span class="o">$</span>survived<span class="p">[</span>test<span class="o">$</span>sex <span class="o">==</span> <span class="s">&quot;female&quot;</span> <span class="o">&amp;</span> test<span class="o">$</span>pclass <span class="o">==</span> <span class="s">&quot;3&quot;</span> <span class="o">&amp;</span> test<span class="o">$</span>fare <span class="o">&gt;=</span> <span class="s">&quot;20&quot;</span><span class="p">]</span> <span class="o">&lt;-</span> <span class="m">0</span>
-write.csv<span class="p">(</span>test<span class="p">,</span> <span class="s">&quot;genderbased-classmodel.csv&quot;</span><span class="p">)</span>
-</code></pre></div>
+write.csv<span class="p">(</span>test<span class="p">,</span> <span class="s">&quot;genderbased-classmodel.csv&quot;</span><span class="p">)</span></code></pre></div>
 
 <h3>Looking Forward</h3>
 

@@ -333,6 +333,17 @@ a:active {
 	color: #1E8AB6;
 }
 
+/* Images */
+img.album {
+    max-height: 400px;
+    max-width: 400px;
+}
+
+img {
+    max-width: 500px;
+}
+
+
 /* Alignment */
 .alignleft {
 	display: inline;
