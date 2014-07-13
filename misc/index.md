@@ -1,10 +1,15 @@
 ---
 layout: default
 title : 'Rough Theory'
+category: 'misc'
+highlighter: FALSE
+
 ---
 
 <h1 class="entry-title"><a href="{{ post.url }}">Miscellaneous</a></h1>
-Here are a few things which shouldn't be of any interest to you. 
+Here are a few things which shouldn't be of any interest to you.
+
+
 
 <a id="essays"></a>
 <h2 class="entry-title"><a href="#essays">Essays</a></h2>
@@ -70,4 +75,16 @@ original creators.
 	<li><a href="{{urls.media}}/phil202.pdf">Phil 202: History of Philosophy II &mdash; Modern Philosophy</a></li>
 	<li><a href="{{urls.media}}/phil306.pdf">Phil 306: Ethics</a></li>
 	<li><a href="{{urls.media}}/phil312.pdf">Phil 312: Philosophy of Mind</a> (<a href="{urls.media}/phil312slides.rar"><strong>Lecture slides</strong></a>)</li>
+</ul>
+
+<a id="old"></a>
+<h2 class="entry-title"><a href="#old">Old Posts</a></h2>
+<ul>
+{% for post in site.categories.old %}
+<li>
+  <h3 class="entry-title" id="{{ post.id }}">
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </h3>
+</li>
+{% endfor %}
 </ul>
