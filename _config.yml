@@ -9,6 +9,8 @@ highlighter: pygments
 paginate: 2
 paginate_path: "/page:num"
 
+permalink: "/posts/:title.html"
+
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
 analytics :
