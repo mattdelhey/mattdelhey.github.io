@@ -51,7 +51,11 @@ appropriate place even if I did).
 			Derrida on the Possibility of Responsibility
 		</a> (Spring 2013)
 		<blockquote style="font-style:normal">
-			Abstract
+			 In this essay I ﬁrst sketch the essential context from
+             Patocka's history of responsibility and then examine the
+             justiﬁcations given for each move in Derrida's argument
+             for the irreplaceable self and the possibility of
+             responsibility.
 		</blockquote>
 	</li>
 </ul>
