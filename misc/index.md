@@ -21,15 +21,15 @@ do in each paper.
 
 You might notice my papers are not shining. The reason is known to
 every student: the most interesting roads of inquiry are the most
-treacherous. It is much better for one's grade (and sanity) to approach
-writing in the so-called traditional analytic style, taking up clarity
-at the cost of relevance and rigor of argument, in the sense of
-certainty in one's conclusions, over the possibility of establishing
-interesting truths. In this regard philosophy should look to
-mathematics, which has long acknowledge that are many (perhaps
+treacherous. It is much better for one's grade (and sanity) to
+approach writing in the so-called traditional analytic style, taking
+up clarity at the cost of relevance and enforcing rigor of argument,
+in the sense of certainty in one's conclusions, over the possibility
+of establishing interesting truths. In this regard philosophy should
+look to mathematics, which has long acknowledge that are many (perhaps
 infinite, they say) truths but only some are worth the bother.
 
-To write philosophically on questions of actual interest must be an
+To write philosophically on questions of actual interest is an
 academic pathology, which must explain the German popularity of the
 Greeks.
 
