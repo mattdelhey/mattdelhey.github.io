@@ -14,19 +14,24 @@ Here are a few things which shouldn't be of any interest to you.
 <a id="essays"></a>
 <h2 class="entry-title"><a href="#essays">Essays</a></h2>
 
-The following are a collection of essay's I've written in my
+The following are a collection of essays I've written in my
 undergraduate philosophy courses. I don't think any of them are worth
 bragging about. I've tried to include a summary of what I attempt to
 do in each paper.
 
-On an unrelated note, I find essays that address the most interesting
-questions in turn travel down and dwell within the least fruitful
-pathways for my thinking. To write in the traditional analytic style
-is something I find to be much easier, and so my papers take that
-form.  I wouldn't dare dwell on a philosophical questioning of actual
-interest because I do not have the weaponry to make any forward ground
-under the fire of critical examination (nor would it be the
-appropriate place even if I did).
+You might notice my papers are not shining. The reason is known to
+every student: the most interesting roads of inquiry are the most
+treacherous. It is much better for one's grade (and sanity) to approach
+writing in the so-called traditional analytic style, taking up clarity
+at the cost of relevance and rigor of argument, in the sense of
+certainty in one's conclusions, over the possibility of establishing
+interesting truths. In this regard philosophy should look to
+mathematics, which has long acknowledge that are many (perhaps
+infinite, they say) truths but only some are worth the bother.
+
+To write philosophically on questions of actual interest must be an
+academic pathology, which must explain the German popularity of the
+Greeks.
 
 <ul>
 	<li>
