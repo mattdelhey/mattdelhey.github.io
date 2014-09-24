@@ -14,6 +14,7 @@ Here are a few things which shouldn't be of any interest to you.
 <a id="essays"></a>
 <h2 class="entry-title"><a href="#essays">Essays</a></h2>
 
+<!--
 The following are a collection of essays I've written in my
 undergraduate philosophy courses. I don't think any of them are worth
 bragging about. I've tried to include a summary of what I attempt to
@@ -32,8 +33,21 @@ infinite, they say) truths but only some are worth the bother.
 To write philosophically on questions of actual interest is an
 academic pathology, which must explain the German popularity of the
 Greeks.
+-->
+
+These are undergraduate essays: I don't think any of them are worth
+bragging about. You've been warned.
+
 
 <ul>
+	<li>
+		<a href="{{ site.url }}/essays/Quine-Husserl.pdf">
+			Two Husserlian Objections to Quine's Naturalized Epistemology
+		</a> (Spring 2014)
+		<blockquote style="font-style:normal">
+			Should we adopt Quine's naturalized epistemology? In "Philosophy as Rigorous Science", Husserl raises two objections to naturalism: (1) its lack of normative power and (2) its circular nature. I agree with the views purposed by David Smith and Sonja Rinofner that Quine could be taken to be advancing two distinct forms of naturalism, ontological or methodological. It seems as if the debate between epistemic naturalists and epistemic anti-naturalists has unavoidable ontological dependencies, turning on the paradox of intentionality, which concerns the nature-status attributed to the field of intentionality, i.e. whether we understand consciousness itself as part of the natural world.
+		</blockquote>
+	</li>
 	<li>
 		<a href="{{ site.url }}/essays/Spinoza-p13.pdf">
 			Spinoza: Proposition 13, Ethics II
